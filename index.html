@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- .item*7>.container -->
+    <div class="item-header bg-black">
+      <div class="container">
+        <!-- ul>li*4 -->
+        <ul class="flex">
+          <li>WILLIAM LEE</li>
+          <li>BASED IN TAIWAN</li>
+          <li>CURRENTLY FRONT END <br />ENGINEER AT HEXSCHOOL</li>
+          <li>CONTACT ME</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bg-black">
+      <div class="container">
+        <!-- div>img+div>h2+h2+h1+a>img -->
+        <div class="block-banner flex">
+          <img src="/images/people.png" alt="william Photo" />
+          <div class="flex">
+            <h2>Hi</h2>
+            <h2>I’m a front-end developer</h2>
+            <h1>William</h1>
+            <a href="#" class="button"
+              >contact me<img src="/images/arrow_outward.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="item-introduction">
+      <div class="container flex">
+        <!-- div>h3+p+*3^div>img*3 -->
+        <div class="block-introduction">
+          <h2>Introduction</h2>
+          <p>
+            Hi, I'm William Lee, a Front-End Developer with a passion for
+            building beautiful and responsive websites that provide an optimal
+            user experience.
+          </p>
+          <img src="/images/sparkle-sm.png" alt="" />
+          <img src="/images/sparkle-sm.png" alt="" />
+          <img src="/images/sparkle-sm.png" alt="" />
+        </div>
+        <div class="block-introduction-img">
+          <img src="/images/sparkle.png" alt="" />
+          <img src="/images/photographer.png" alt="" />
+          <img src="/images/people-2.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="item-about">
+      <div class="container flex">
+        <!-- ul>ol*4>h4+h4+p^^div>h3+p -->
+        <ul class="flex">
+          <ol>
+            <h4>01</h4>
+            <h4>Attention to Detail</h4>
+            <p>Meticulous code analysis and optimization.</p>
+          </ol>
+          <ol>
+            <h4>02</h4>
+            <h4>Adaptability</h4>
+            <p>Swift learning of new technologies.</p>
+          </ol>
+          <ol>
+            <h4>03</h4>
+            <h4>Problem Solver</h4>
+            <p>Identifying and resolving issues.</p>
+          </ol>
+          <ol>
+            <h4>04</h4>
+            <h4>Team Player</h4>
+            <p>Collaborates and shares ideas.</p>
+          </ol>
+        </ul>
+        <div class="block-about">
+          <h2>About Me</h2>
+          <p>
+            With over 5 years of experience, I'm proficient in HTML, CSS,
+            JavaScript, jQuery, and React. I have a strong understanding of user
+            experience design and accessibility. I'm always learning new
+            technologies and techniques to stay up-to-date in the field.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="item-contact">
+      <div class="container flex">
+        <!-- div>h2+img^+div>img*3 -->
+        <div class="block-contact">
+          <h2>CONTACT ME</h2>
+          <img
+            class="arrow"
+            src="/images/trending_flat_black_24dp 1.png"
+            alt=""
+          />
+        </div>
+        <div class="block-contact-img">
+          <a href="#"><img src="/images/discord.png" alt="" /></a>
+          <a href="#"><img src="/images/instagram.png" alt="" /></a>
+          <a href="#"><img src="/images/message.png" alt="" /></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="item-Projects bg-white flex">
+      <div class="container">
+        <!-- div>h3^div>div>img^div>div>img+p+a>img^^div>img*2 -->
+        <div>
+          <h2>My Projects</h2>
+        </div>
+        <div class="block-project">
+          <div class="project-l">
+            <img src="/images/Rectangle 10.png" alt="" />
+          </div>
+          <div class="project-r">
+            <div class="block-project-info flex">
+              <div class="block-p-info-l">
+                <img src="/images/Rectangle 15.png" alt="" />
+              </div>
+              <div class="block-p-info-r">
+                <p>
+                  I've worked on a variety of websites, including e-commerce
+                  sites, blogs, and landing pages. I take pride in creating
+                  clean, efficient, and user-friendly code.
+                </p>
+                <a href="#" class="button">
+                  SEE MORE<img src="/images/arrow_outward-white.png" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="block-r">
+              <img src="/images/Rectangle 14.png" alt="" />
+              <img src="/images/Rectangle 29.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="item bg-black">
+      <div class="container">
+        <!-- footer>span -->
+        <footer class="item-footer">
+          <span>all rights reserved @hexschool2023</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/browser-scss@1.0.3/dist/browser-scss.min.js"
+  src="https://www.jsdelivr.com/package/npm/normalize.css"
+></script>
+
+<style type="text/scss">
+  /* 全域 */
+  body {
+    font-family: 'Bruno Ace SC';
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 64px;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    vertical-align: middle;
+    max-width: 100%;
+    object-fit: contain;
+    height: auto;
+  }
+  /* 共用 */
+  .button {
+    padding: 12px 24px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    border: 1px solid blue;
+    width: 1296px;
+    margin: 0 auto;
+  }
+  .flex {
+    display: flex;
+  }
+  .bg-black {
+    background: #000;
+  }
+  .bg-white {
+    background: #fff;
+  }
+  /* header */
+  .item-header {
+    ul {
+      padding-top: 40px;
+      justify-content: space-evenly;
+    }
+    li {
+      color: #fff;
+      font-size: 16px;
+    }
+  }
+  /* banner */
+  .block-banner {
+    padding: 72px 0;
+    div {
+      padding: 160px 0;
+      flex-direction: column;
+      h1 {
+        font-size: 128px;
+        color: #00ffa3;
+        margin-left: auto;
+      }
+      h2 {
+        color: #fff;
+      }
+      a {
+        background: #fff;
+        color: #000;
+        margin-left: auto;
+      }
+    }
+  }
+  /* Introduction */
+  .item-introduction {
+    background-image: url(/images/background-img.png);
+    padding: 160px 0;
+    color: #fff;
+    div {
+      justify-content: space-between;
+    }
+  }
+  .block-introduction {
+    width: 526px;
+    p {
+      margin: 36px 0 32px;
+      font-size: 24px;
+    }
+  }
+  .block-introduction-img {
+    overflow: hidden;
+    img:nth-child(2) {
+      padding: 0 24px;
+    }
+  }
+  /* About Me */
+  .item-about {
+    padding: 160px 0;
+    .flex {
+      justify-content: center;
+      align-items: center;
+    }
+    ul {
+      max-width: 50%;
+      flex-wrap: wrap;
+      row-gap: 24px;
+      column-gap: 24px;
+
+      ol {
+        max-width: 274px;
+        padding: 16px;
+
+        h4 {
+          font-size: 20px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+    .block-about {
+      width: 50%;
+      margin-left: 134px;
+      h2 {
+        margin-bottom: 36px;
+      }
+      p {
+        font-size: 24px;
+      }
+    }
+  }
+  /* CONTACT ME */
+  .item-contact {
+    padding: 96px 0;
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    h2 {
+      display: inline-block;
+      color: #fff;
+    }
+    .arrow {
+      width: 100px;
+    }
+    .block-contact {
+      display: flex;
+      align-items: center;
+      .arrow {
+        width: 100px;
+      }
+    }
+    .block-contact-img {
+      width: 50%;
+      text-align: right;
+      img {
+        display: inline-block;
+        width: 162px;
+        margin-left: 20px;
+      }
+      img:hover {
+        border-radius: 40px;
+        box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9),
+          0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      }
+    }
+  }
+  /* My Projects */
+  .item-Projects {
+    padding: 160px 0;
+    h2 {
+      margin-bottom: 16px;
+      margin-left: auto;
+      width: 746px;
+    }
+    .block-project-info {
+      margin-bottom: 28px;
+    }
+    .block-project {
+      display: flex;
+      .block-p-info-l {
+        img {
+          max-width: 196px;
+          margin-right: 24px;
+        }
+      }
+    }
+    .project-l {
+      img {
+        max-width: 416px;
+        margin-right: 24px;
+      }
+    }
+    .block-p-info-r {
+      a {
+        background: #000;
+        color: #fff;
+        margin-top: 76px;
+        display: inline-block;
+      }
+    }
+    .block-r {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  /* footer */
+  .item-footer {
+    padding: 40px 0;
+    text-align: center;
+    span {
+      color: #fff;
+    }
+  }
+</style>
